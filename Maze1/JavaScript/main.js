@@ -303,6 +303,7 @@ function playerController(){
 }
 
 function main(){
+    alert("Controls a,w,s,d");
     mazeGenerator();
     createObject(player,playerParam.id, playerParam.position, playerParam.x1, playerParam.y1, playerParam.h, playerParam.w,
                  playerParam.background, playerParam.borderRad, playerParam.animation, playerParam.animationId);
